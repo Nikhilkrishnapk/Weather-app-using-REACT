@@ -1,0 +1,13 @@
+.header-logo{
+    background:transparent;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 5px;
+}
+.header-logo>img{
+    width:100%;
+}

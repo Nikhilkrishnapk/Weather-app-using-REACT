@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.landing-page{
+  height: 100vh;
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(336deg, rgba(255,255,255,1) 0%, rgba(30,150,233,1) 100%);
+  
+}
+.inputdiv{
+  height: 50px;
+  width: 300px;
+  padding:10px;
+  position: absolute;
+  left: 50%;
+  top:20%;
+  transform: translateX(-50%);
+  background-color:white;
+  display:flex;
+  align-items: center;
+  border-radius: 50px;
+}
+.inputdiv>button{
+  border:none;
+  font-size: 25px;
+  background-color: white;
+}
+.display-content{
+  height: 500px;
+  max-width:900px;
+  background-color: transparent;
+  margin: 1px auto;
+}
+.searchinput{
+  margin-right: 30px;
+  height: 50px;
+  width:400px;
+  border:none;
+  border-radius: 50px;
+  padding-left: 10px;
+  outline: none;
+}
+.homeimg{
+  width: 100%;
+}
+.main{
+  position: absolute;
+  top: 30%;
+}
+.main-one,.main-two{
+  height: 300px;
+  width:300px;
+
+}
+.main-one{
+  margin-left: 100px;
+}
+.main-two{
+  margin-left: 70px;
+}
+.temp{
+  font-size: 90px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
+.windhumidity{
+  width:50px;
+  height: 50px;
+}
+.windhumidity>img{
+  width: 100%;
+}
+.location{
+  text-transform: uppercase;
+  color:#ffbc00;
+}
+.notfound{
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+  color:red;
+  font-size: larger;
+  font-weight: 600;
+}
